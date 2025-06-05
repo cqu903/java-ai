@@ -25,4 +25,8 @@ public class ChatController {
         return chatClient.prompt().user(message).call().content();
     }
 
+    @GetMapping("/chat-ai-stream")
+    public String chatAiStream(@RequestParam String message) {
+        return chatClient.prompt().user(message).stream().call().content();
+    }
 }
