@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-SpringAiStudyApplication<spring-ai-study>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.zerofinance.spring_ai_study.SpringAiStudyApplication",
+            "projectName": "spring-ai-study",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
